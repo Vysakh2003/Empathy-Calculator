@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyaudio = "*"
+text2emotion = "*"
+numpy = "*"
+opencv-python = "*"
+matplotlib = "*"
+openpyxl = "*"
+scipy = "*"
+keras = "*"
+tensorflow = "*"
+speechrecognition = "*"
+cmake = "*"
+mediapipe = "*"
+utils = "*"
+dlib = "*"
+pyttsx3 = "*"
+sounddevice = "*"
+wavio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.5"
